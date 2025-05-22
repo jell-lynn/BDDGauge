@@ -1,0 +1,66 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 694milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 694"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 22982"}
+{"logLevel":"info","message":"Listening on port:22982"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.iHaveNavigatedToLoginPage' and 'example.StepImplementation.iHaveNavigatedToLoginPage'"}
+{"logLevel":"debug","message":"Found I have navigated to the login page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.shouldRemainOnLoginPage' and 'example.StepImplementation.shouldRemainOnLoginPage'"}
+{"logLevel":"debug","message":"Found I should remain on the login page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.shouldRedirectToDashboard' and 'example.StepImplementation.shouldRedirectToDashboard'"}
+{"logLevel":"debug","message":"Found I should be redirected to the dashboard in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.clickButton' and 'example.StepImplementation.clickButton'"}
+{"logLevel":"debug","message":"Found I click on the {} button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.iAmOnTheLoginPage' and 'example.StepImplementation.iAmOnTheLoginPage'"}
+{"logLevel":"debug","message":"Found I am on the login page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.enterIncorrectPassword' and 'example.StepImplementation.enterIncorrectPassword'"}
+{"logLevel":"debug","message":"Found I enter my valid username but an incorrect password in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.enterEmptyFields' and 'example.StepImplementation.enterEmptyFields'"}
+{"logLevel":"debug","message":"Found I leave the username and password fields empty in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.shouldSeeWelcomeMessage' and 'example.StepImplementation.shouldSeeWelcomeMessage'"}
+{"logLevel":"debug","message":"Found I should see a welcome message in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.enterValidCredentials' and 'example.StepImplementation.enterValidCredentials'"}
+{"logLevel":"debug","message":"Found I enter my valid username and password in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.iAmRegisteredUser' and 'example.StepImplementation.iAmRegisteredUser'"}
+{"logLevel":"debug","message":"Found I am a registered user in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.shouldSeeErrorMessage' and 'example.StepImplementation.shouldSeeErrorMessage'"}
+{"logLevel":"debug","message":"Found I should see an error message saying {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tI enter my valid username and password : public void enterValidCredentials()"}
+{"logLevel":"debug","message":"\tI click on the {} button : public void clickButton(String button)"}
+{"logLevel":"debug","message":"\tI am a registered user : public void iAmRegisteredUser()"}
+{"logLevel":"debug","message":"\tI am on the login page : public void iAmOnTheLoginPage()"}
+{"logLevel":"debug","message":"\tI enter my valid username but an incorrect password : public void enterIncorrectPassword()"}
+{"logLevel":"debug","message":"\tI should see a welcome message : public void shouldSeeWelcomeMessage()"}
+{"logLevel":"debug","message":"\tI should remain on the login page : public void shouldRemainOnLoginPage()"}
+{"logLevel":"debug","message":"\tI should be redirected to the dashboard : public void shouldRedirectToDashboard()"}
+{"logLevel":"debug","message":"\tI have navigated to the login page : public void iHaveNavigatedToLoginPage()"}
+{"logLevel":"debug","message":"\tI should see an error message saying {} : public void shouldSeeErrorMessage(String expectedMessage)"}
+{"logLevel":"debug","message":"\tI leave the username and password fields empty : public void enterEmptyFields()"}
+{"logLevel":"debug","message":"Executing 'I am a registered user' using 'class example.StepImplementation.iAmRegisteredUser"}
+{"logLevel":"debug","message":"Executing 'I have navigated to the login page' using 'class example.StepImplementation.iHaveNavigatedToLoginPage"}
+{"logLevel":"debug","message":"Executing 'I enter my valid username and password' using 'class example.StepImplementation.enterValidCredentials"}
+{"logLevel":"debug","message":"Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton"}
+{"logLevel":"debug","message":"Executing 'I should be redirected to the dashboard' using 'class example.StepImplementation.shouldRedirectToDashboard"}
+{"logLevel":"debug","message":"Executing 'I should see a welcome message' using 'class example.StepImplementation.shouldSeeWelcomeMessage"}
+{"logLevel":"debug","message":"Executing 'I am a registered user' using 'class example.StepImplementation.iAmRegisteredUser"}
+{"logLevel":"debug","message":"Executing 'I have navigated to the login page' using 'class example.StepImplementation.iHaveNavigatedToLoginPage"}
+{"logLevel":"debug","message":"Executing 'I enter my valid username but an incorrect password' using 'class example.StepImplementation.enterIncorrectPassword"}
+{"logLevel":"debug","message":"Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton"}
+{"logLevel":"debug","message":"Executing 'I should see an error message saying {}' using 'class example.StepImplementation.shouldSeeErrorMessage"}
+{"logLevel":"debug","message":"Executing 'I should remain on the login page' using 'class example.StepImplementation.shouldRemainOnLoginPage"}
+{"logLevel":"debug","message":"Executing 'I am on the login page' using 'class example.StepImplementation.iAmOnTheLoginPage"}
+{"logLevel":"debug","message":"Executing 'I leave the username and password fields empty' using 'class example.StepImplementation.enterEmptyFields"}
+{"logLevel":"debug","message":"Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton"}
+{"logLevel":"debug","message":"Executing 'I should see an error message saying {}' using 'class example.StepImplementation.shouldSeeErrorMessage"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

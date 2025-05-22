@@ -1,0 +1,907 @@
+20-05-2025 23:02:42.029 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\DST2024\Semester 2\Agile\bddgauge\.gauge\screenshots
+20-05-2025 23:02:42.030 [Gauge] [DEBUG] Plugin java is already installed.
+20-05-2025 23:02:42.030 [Gauge] [DEBUG] Plugin html-report is already installed.
+20-05-2025 23:02:42.031 [Gauge] [DEBUG] Parsing started.
+20-05-2025 23:02:42.031 [Gauge] [DEBUG] Started concepts parsing.
+20-05-2025 23:02:42.032 [Gauge] [DEBUG] 0 concepts parsing completed.
+20-05-2025 23:02:42.033 [Gauge] [DEBUG] Started specifications parsing.
+20-05-2025 23:02:42.033 [Gauge] [DEBUG] 1 specifications parsing completed.
+20-05-2025 23:02:42.033 [Gauge] [DEBUG] Parsing completed.
+20-05-2025 23:02:42.043 [java] [DEBUG] ***** Printing Properties/Env Values *****
+20-05-2025 23:02:42.044 [java] [DEBUG] PATH: C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Gauge\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Ruby33-x64\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\;C:\Program Files\MySQL\M;C:\Program Files\PostgreSQL\16\bin;C:\Users\kaops\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\Scripts\;C:\Gradle\gradle-8.14\bin;;C:\Users\kaops\AppData\Roaming\gauge\plugins\screenshot\0.3.1
+20-05-2025 23:02:42.044 [java] [DEBUG] JAVA_HOME: C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot
+20-05-2025 23:02:42.044 [java] [DEBUG] gauge_project_root: D:\DST2024\Semester 2\Agile\bddgauge
+20-05-2025 23:02:42.044 [java] [DEBUG] gauge_parallel_streams_count: 12
+20-05-2025 23:02:42.044 [java] [DEBUG] gauge_reports_dir: reports
+20-05-2025 23:02:42.044 [java] [DEBUG] overwrite_reports: true
+20-05-2025 23:02:42.044 [java] [DEBUG] logs_directory: logs
+20-05-2025 23:02:42.044 [java] [DEBUG] enable_multithreading: false
+20-05-2025 23:02:42.044 [java] [DEBUG] gauge_specs_dir: specs
+20-05-2025 23:02:42.044 [java] [DEBUG] csv_delimiter: ,
+20-05-2025 23:02:42.044 [java] [DEBUG] gauge_java_home: 
+20-05-2025 23:02:42.044 [java] [DEBUG] gauge_custom_build_path: 
+20-05-2025 23:02:42.044 [java] [DEBUG] gauge_additional_libs: libs/*
+20-05-2025 23:02:42.044 [java] [DEBUG] gauge_jvm_args: 
+20-05-2025 23:02:42.044 [java] [DEBUG] gauge_custom_compile_dir: 
+20-05-2025 23:02:42.044 [java] [DEBUG] gauge_clear_state_level: scenario
+20-05-2025 23:02:42.044 [java] [DEBUG] ***** END *****
+20-05-2025 23:02:42.720 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\kaops\AppData\Local\Temp\gauge_temp453987765\fbba3e8162f37d4aa44002a233f7f3e8]
+20-05-2025 23:02:42.720 [java] [DEBUG] stdout/stderr is logged to logs\7932-javac.exe.out
+20-05-2025 23:02:42.977 [Gauge] [DEBUG] Checking updates...
+20-05-2025 23:02:42.978 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+20-05-2025 23:02:43.131 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+20-05-2025 23:02:43.185 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+20-05-2025 23:02:43.539 [java] [DEBUG] classpath set to C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\*;C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\libs\*;D:\DST2024\Semester 2\Agile\bddgauge\libs\*;gauge_bin
+20-05-2025 23:02:43.556 [java] [DEBUG] found java executable in C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe
+20-05-2025 23:02:43.556 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+20-05-2025 23:02:43.556 [java] [DEBUG] stdout/stderr is logged to logs\7932-java.exe.out
+20-05-2025 23:02:43.652 [java] [DEBUG] multithreading is set to false
+20-05-2025 23:02:43.850 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+20-05-2025 23:02:43.872 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+20-05-2025 23:02:43.872 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+20-05-2025 23:02:43.872 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+20-05-2025 23:02:44.306 [java] [DEBUG] gauge-java took 651milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+20-05-2025 23:02:44.306 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 651
+20-05-2025 23:02:44.306 [java] [DEBUG] starting gRPC server...
+20-05-2025 23:02:44.396 [java] [DEBUG] started gRPC server on port 34108
+20-05-2025 23:02:44.397 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34108
+20-05-2025 23:02:44.397 [Gauge] [DEBUG] Successfully made the connection with runner with port: 34108
+20-05-2025 23:02:44.397 [Gauge] [DEBUG] Validation started.
+20-05-2025 23:02:44.893 [java] [DEBUG] Scanning packages for steps
+20-05-2025 23:02:44.901 [java] [DEBUG] Comparing 'example.StepImplementation.iHaveNavigatedToLoginPage' and 'example.StepImplementation.iHaveNavigatedToLoginPage'
+20-05-2025 23:02:44.902 [java] [DEBUG] Found I have navigated to the login page in current project scope.
+20-05-2025 23:02:44.903 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRemainOnLoginPage' and 'example.StepImplementation.shouldRemainOnLoginPage'
+20-05-2025 23:02:44.903 [java] [DEBUG] Found I should remain on the login page in current project scope.
+20-05-2025 23:02:44.903 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRedirectToDashboard' and 'example.StepImplementation.shouldRedirectToDashboard'
+20-05-2025 23:02:44.903 [java] [DEBUG] Found I should be redirected to the dashboard in current project scope.
+20-05-2025 23:02:44.903 [java] [DEBUG] Comparing 'example.StepImplementation.iAmOnTheLoginPage' and 'example.StepImplementation.iAmOnTheLoginPage'
+20-05-2025 23:02:44.903 [java] [DEBUG] Found I am on the login page in current project scope.
+20-05-2025 23:02:44.903 [java] [DEBUG] Comparing 'example.StepImplementation.enterIncorrectPassword' and 'example.StepImplementation.enterIncorrectPassword'
+20-05-2025 23:02:44.903 [java] [DEBUG] Found I enter my valid username but an incorrect password in current project scope.
+20-05-2025 23:02:44.903 [java] [DEBUG] Comparing 'example.StepImplementation.enterEmptyFields' and 'example.StepImplementation.enterEmptyFields'
+20-05-2025 23:02:44.903 [java] [DEBUG] Found I leave the username and password fields empty in current project scope.
+20-05-2025 23:02:44.903 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeWelcomeMessage' and 'example.StepImplementation.shouldSeeWelcomeMessage'
+20-05-2025 23:02:44.903 [java] [DEBUG] Found I should see a welcome message in current project scope.
+20-05-2025 23:02:44.903 [java] [DEBUG] Loading I click on the "Login" buttonvia reflected sources.
+20-05-2025 23:02:44.904 [java] [DEBUG] Comparing 'example.StepImplementation.enterValidCredentials' and 'example.StepImplementation.enterValidCredentials'
+20-05-2025 23:02:44.904 [java] [DEBUG] Found I enter my valid username and password in current project scope.
+20-05-2025 23:02:44.904 [java] [DEBUG] Comparing 'example.StepImplementation.iAmRegisteredUser' and 'example.StepImplementation.iAmRegisteredUser'
+20-05-2025 23:02:44.904 [java] [DEBUG] Found I am a registered user in current project scope.
+20-05-2025 23:02:44.905 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeErrorMessage' and 'example.StepImplementation.shouldSeeErrorMessage'
+20-05-2025 23:02:44.905 [java] [DEBUG] Found I should see an error message saying {} in current project scope.
+20-05-2025 23:02:44.905 [java] [DEBUG] Scanning packages for hooks
+20-05-2025 23:02:44.907 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+20-05-2025 23:02:44.907 [java] [DEBUG] 	I am on the login page : public void iAmOnTheLoginPage()
+20-05-2025 23:02:44.907 [java] [DEBUG] 	I should remain on the login page : public void shouldRemainOnLoginPage()
+20-05-2025 23:02:44.907 [java] [DEBUG] 	I should be redirected to the dashboard : public void shouldRedirectToDashboard()
+20-05-2025 23:02:44.907 [java] [DEBUG] 	I have navigated to the login page : public void iHaveNavigatedToLoginPage()
+20-05-2025 23:02:44.907 [java] [DEBUG] 	I should see an error message saying {} : public void shouldSeeErrorMessage(String expectedMessage)
+20-05-2025 23:02:44.907 [java] [DEBUG] 	I enter my valid username and password : public void enterValidCredentials()
+20-05-2025 23:02:44.907 [java] [DEBUG] 	I click on the \"Login\" button : public void clickLoginButton()
+20-05-2025 23:02:44.907 [java] [DEBUG] 	I click on the "Login" button : null
+20-05-2025 23:02:44.907 [java] [DEBUG] 	I am a registered user : public void iAmRegisteredUser()
+20-05-2025 23:02:44.907 [java] [DEBUG] 	I enter my valid username but an incorrect password : public void enterIncorrectPassword()
+20-05-2025 23:02:44.908 [java] [DEBUG] 	I should see a welcome message : public void shouldSeeWelcomeMessage()
+20-05-2025 23:02:44.908 [java] [DEBUG] 	I leave the username and password fields empty : public void enterEmptyFields()
+20-05-2025 23:02:45.303 [Gauge] [ERROR] [ValidationError] D:\DST2024\Semester 2\Agile\bddgauge\specs\login.spec:7 Step implementation not found => 'I click on the "Login" button'
+20-05-2025 23:02:45.303 [Gauge] [ERROR] [ValidationError] D:\DST2024\Semester 2\Agile\bddgauge\specs\login.spec:15 Step implementation not found => 'I click on the "Login" button'
+20-05-2025 23:02:45.303 [Gauge] [ERROR] [ValidationError] D:\DST2024\Semester 2\Agile\bddgauge\specs\login.spec:22 Step implementation not found => 'I click on the "Login" button'
+20-05-2025 23:02:45.303 [Gauge] [INFO] Add the following missing implementations to fix `Step implementation not found` errors.
+20-05-2025 23:02:45.303 [Gauge] [INFO] 
+	@Step("I click on the <Login> button")
+	public void iClickOnTheButton(Object arg0){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+20-05-2025 23:02:45.303 [Gauge] [DEBUG] Run started
+20-05-2025 23:02:45.304 [Gauge] [DEBUG] Starting Html Report plugin
+20-05-2025 23:02:45.319 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+20-05-2025 23:02:45.319 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34111
+20-05-2025 23:02:45.319 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 34111
+20-05-2025 23:02:45.319 [Gauge] [DEBUG] Initialising suite data store.
+20-05-2025 23:02:45.364 [html-report] [DEBUG] Transformed SuiteResult to report structure
+20-05-2025 23:02:45.460 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+20-05-2025 23:02:45.465 [html-report] [INFO] Successfully generated html-report to => D:\DST2024\Semester 2\Agile\bddgauge\reports\html-report\index.html
+20-05-2025 23:02:45.465 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\kaops\AppData\Roaming\gauge\plugins\html-report\4.3.2\themes\default
+20-05-2025 23:02:45.467 [java] [DEBUG] Killing Java runner...
+20-05-2025 23:02:45.469 [java] [DEBUG] Stopping execution pool...
+20-05-2025 23:02:45.469 [java] [DEBUG] Shutting down grpc server...
+20-05-2025 23:02:45.473 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+20-05-2025 23:02:45.473 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	3 skipped
+20-05-2025 23:02:45.473 [Gauge] [INFO] 
+Total time taken: 60ms
+20-05-2025 23:04:26.406 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\DST2024\Semester 2\Agile\bddgauge\.gauge\screenshots
+20-05-2025 23:04:26.407 [Gauge] [DEBUG] Plugin java is already installed.
+20-05-2025 23:04:26.407 [Gauge] [DEBUG] Plugin html-report is already installed.
+20-05-2025 23:04:26.407 [Gauge] [DEBUG] Parsing started.
+20-05-2025 23:04:26.407 [Gauge] [DEBUG] Started concepts parsing.
+20-05-2025 23:04:26.409 [Gauge] [DEBUG] 0 concepts parsing completed.
+20-05-2025 23:04:26.409 [Gauge] [DEBUG] Started specifications parsing.
+20-05-2025 23:04:26.409 [Gauge] [ERROR] [ParseError] D:\DST2024\Semester 2\Agile\bddgauge\specs\login.spec:7 Dynamic parameter <Login> could not be resolved => 'I click on the <Login> button'
+20-05-2025 23:04:26.409 [Gauge] [ERROR] [ParseError] D:\DST2024\Semester 2\Agile\bddgauge\specs\login.spec:15 Dynamic parameter <Login> could not be resolved => 'I click on the <Login> button'
+20-05-2025 23:04:26.409 [Gauge] [ERROR] [ParseError] D:\DST2024\Semester 2\Agile\bddgauge\specs\login.spec:22 Dynamic parameter <Login> could not be resolved => 'I click on the <Login> button'
+20-05-2025 23:04:26.409 [Gauge] [DEBUG] 1 specifications parsing completed.
+20-05-2025 23:04:26.409 [Gauge] [DEBUG] Parsing completed.
+20-05-2025 23:04:26.422 [java] [DEBUG] ***** Printing Properties/Env Values *****
+20-05-2025 23:04:26.422 [java] [DEBUG] PATH: C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Gauge\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Ruby33-x64\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\;C:\Program Files\MySQL\M;C:\Program Files\PostgreSQL\16\bin;C:\Users\kaops\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\Scripts\;C:\Gradle\gradle-8.14\bin;;C:\Users\kaops\AppData\Roaming\gauge\plugins\screenshot\0.3.1
+20-05-2025 23:04:26.422 [java] [DEBUG] JAVA_HOME: C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot
+20-05-2025 23:04:26.422 [java] [DEBUG] gauge_project_root: D:\DST2024\Semester 2\Agile\bddgauge
+20-05-2025 23:04:26.422 [java] [DEBUG] gauge_parallel_streams_count: 12
+20-05-2025 23:04:26.422 [java] [DEBUG] gauge_reports_dir: reports
+20-05-2025 23:04:26.422 [java] [DEBUG] overwrite_reports: true
+20-05-2025 23:04:26.422 [java] [DEBUG] logs_directory: logs
+20-05-2025 23:04:26.422 [java] [DEBUG] enable_multithreading: false
+20-05-2025 23:04:26.422 [java] [DEBUG] gauge_specs_dir: specs
+20-05-2025 23:04:26.422 [java] [DEBUG] csv_delimiter: ,
+20-05-2025 23:04:26.422 [java] [DEBUG] gauge_java_home: 
+20-05-2025 23:04:26.422 [java] [DEBUG] gauge_custom_build_path: 
+20-05-2025 23:04:26.422 [java] [DEBUG] gauge_additional_libs: libs/*
+20-05-2025 23:04:26.422 [java] [DEBUG] gauge_jvm_args: 
+20-05-2025 23:04:26.422 [java] [DEBUG] gauge_custom_compile_dir: 
+20-05-2025 23:04:26.422 [java] [DEBUG] gauge_clear_state_level: scenario
+20-05-2025 23:04:26.422 [java] [DEBUG] ***** END *****
+20-05-2025 23:04:27.029 [Gauge] [DEBUG] Checking updates...
+20-05-2025 23:04:27.030 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+20-05-2025 23:04:27.152 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+20-05-2025 23:04:27.170 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\kaops\AppData\Local\Temp\gauge_temp3939582411\b9225166b317fc49d57dd4ac7f409393]
+20-05-2025 23:04:27.170 [java] [DEBUG] stdout/stderr is logged to logs\25776-javac.exe.out
+20-05-2025 23:04:27.204 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+20-05-2025 23:04:28.068 [java] [DEBUG] classpath set to C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\*;C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\libs\*;D:\DST2024\Semester 2\Agile\bddgauge\libs\*;gauge_bin
+20-05-2025 23:04:28.085 [java] [DEBUG] found java executable in C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe
+20-05-2025 23:04:28.085 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+20-05-2025 23:04:28.085 [java] [DEBUG] stdout/stderr is logged to logs\25776-java.exe.out
+20-05-2025 23:04:28.190 [java] [DEBUG] multithreading is set to false
+20-05-2025 23:04:28.428 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+20-05-2025 23:04:28.450 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+20-05-2025 23:04:28.450 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+20-05-2025 23:04:28.450 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+20-05-2025 23:04:28.918 [java] [DEBUG] gauge-java took 725milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+20-05-2025 23:04:28.918 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 725
+20-05-2025 23:04:28.918 [java] [DEBUG] starting gRPC server...
+20-05-2025 23:04:29.022 [java] [DEBUG] started gRPC server on port 34132
+20-05-2025 23:04:29.023 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34132
+20-05-2025 23:04:29.023 [Gauge] [DEBUG] Successfully made the connection with runner with port: 34132
+20-05-2025 23:04:29.023 [Gauge] [DEBUG] Validation started.
+20-05-2025 23:04:29.580 [java] [DEBUG] Scanning packages for steps
+20-05-2025 23:04:29.587 [java] [DEBUG] Comparing 'example.StepImplementation.iHaveNavigatedToLoginPage' and 'example.StepImplementation.iHaveNavigatedToLoginPage'
+20-05-2025 23:04:29.588 [java] [DEBUG] Found I have navigated to the login page in current project scope.
+20-05-2025 23:04:29.588 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRemainOnLoginPage' and 'example.StepImplementation.shouldRemainOnLoginPage'
+20-05-2025 23:04:29.588 [java] [DEBUG] Found I should remain on the login page in current project scope.
+20-05-2025 23:04:29.589 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRedirectToDashboard' and 'example.StepImplementation.shouldRedirectToDashboard'
+20-05-2025 23:04:29.589 [java] [DEBUG] Found I should be redirected to the dashboard in current project scope.
+20-05-2025 23:04:29.589 [java] [DEBUG] Comparing 'example.StepImplementation.clickButton' and 'example.StepImplementation.clickButton'
+20-05-2025 23:04:29.589 [java] [DEBUG] Found I click on the {} button in current project scope.
+20-05-2025 23:04:29.589 [java] [DEBUG] Comparing 'example.StepImplementation.iAmOnTheLoginPage' and 'example.StepImplementation.iAmOnTheLoginPage'
+20-05-2025 23:04:29.589 [java] [DEBUG] Found I am on the login page in current project scope.
+20-05-2025 23:04:29.589 [java] [DEBUG] Comparing 'example.StepImplementation.enterIncorrectPassword' and 'example.StepImplementation.enterIncorrectPassword'
+20-05-2025 23:04:29.589 [java] [DEBUG] Found I enter my valid username but an incorrect password in current project scope.
+20-05-2025 23:04:29.589 [java] [DEBUG] Comparing 'example.StepImplementation.enterEmptyFields' and 'example.StepImplementation.enterEmptyFields'
+20-05-2025 23:04:29.589 [java] [DEBUG] Found I leave the username and password fields empty in current project scope.
+20-05-2025 23:04:29.589 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeWelcomeMessage' and 'example.StepImplementation.shouldSeeWelcomeMessage'
+20-05-2025 23:04:29.589 [java] [DEBUG] Found I should see a welcome message in current project scope.
+20-05-2025 23:04:29.589 [java] [DEBUG] Comparing 'example.StepImplementation.enterValidCredentials' and 'example.StepImplementation.enterValidCredentials'
+20-05-2025 23:04:29.589 [java] [DEBUG] Found I enter my valid username and password in current project scope.
+20-05-2025 23:04:29.589 [java] [DEBUG] Comparing 'example.StepImplementation.iAmRegisteredUser' and 'example.StepImplementation.iAmRegisteredUser'
+20-05-2025 23:04:29.589 [java] [DEBUG] Found I am a registered user in current project scope.
+20-05-2025 23:04:29.590 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeErrorMessage' and 'example.StepImplementation.shouldSeeErrorMessage'
+20-05-2025 23:04:29.590 [java] [DEBUG] Found I should see an error message saying {} in current project scope.
+20-05-2025 23:04:29.590 [java] [DEBUG] Scanning packages for hooks
+20-05-2025 23:04:29.593 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+20-05-2025 23:04:29.593 [java] [DEBUG] 	I enter my valid username and password : public void enterValidCredentials()
+20-05-2025 23:04:29.593 [java] [DEBUG] 	I click on the {} button : public void clickButton(String button)
+20-05-2025 23:04:29.593 [java] [DEBUG] 	I am a registered user : public void iAmRegisteredUser()
+20-05-2025 23:04:29.593 [java] [DEBUG] 	I am on the login page : public void iAmOnTheLoginPage()
+20-05-2025 23:04:29.593 [java] [DEBUG] 	I enter my valid username but an incorrect password : public void enterIncorrectPassword()
+20-05-2025 23:04:29.593 [java] [DEBUG] 	I should see a welcome message : public void shouldSeeWelcomeMessage()
+20-05-2025 23:04:29.593 [java] [DEBUG] 	I should remain on the login page : public void shouldRemainOnLoginPage()
+20-05-2025 23:04:29.593 [java] [DEBUG] 	I should be redirected to the dashboard : public void shouldRedirectToDashboard()
+20-05-2025 23:04:29.594 [java] [DEBUG] 	I have navigated to the login page : public void iHaveNavigatedToLoginPage()
+20-05-2025 23:04:29.594 [java] [DEBUG] 	I should see an error message saying {} : public void shouldSeeErrorMessage(String expectedMessage)
+20-05-2025 23:04:29.594 [java] [DEBUG] 	I leave the username and password fields empty : public void enterEmptyFields()
+20-05-2025 23:04:29.957 [Gauge] [DEBUG] Validation completed.
+20-05-2025 23:04:29.957 [Gauge] [DEBUG] Run started
+20-05-2025 23:04:29.958 [Gauge] [DEBUG] Starting Html Report plugin
+20-05-2025 23:04:29.972 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+20-05-2025 23:04:29.972 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34135
+20-05-2025 23:04:29.972 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 34135
+20-05-2025 23:04:29.972 [Gauge] [DEBUG] Initialising suite data store.
+20-05-2025 23:04:30.009 [html-report] [DEBUG] Transformed SuiteResult to report structure
+20-05-2025 23:04:30.018 [html-report] [INFO] Successfully generated html-report to => D:\DST2024\Semester 2\Agile\bddgauge\reports\html-report\index.html
+20-05-2025 23:04:30.018 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+20-05-2025 23:04:30.018 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\kaops\AppData\Roaming\gauge\plugins\html-report\4.3.2\themes\default
+20-05-2025 23:04:30.021 [java] [DEBUG] Killing Java runner...
+20-05-2025 23:04:30.021 [java] [DEBUG] Stopping execution pool...
+20-05-2025 23:04:30.021 [java] [DEBUG] Shutting down grpc server...
+20-05-2025 23:04:30.026 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+20-05-2025 23:04:30.026 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+20-05-2025 23:04:30.027 [Gauge] [INFO] 
+Total time taken: 51ms
+20-05-2025 23:06:13.634 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\DST2024\Semester 2\Agile\bddgauge\.gauge\screenshots
+20-05-2025 23:06:13.634 [Gauge] [DEBUG] Plugin html-report is already installed.
+20-05-2025 23:06:13.635 [Gauge] [DEBUG] Plugin java is already installed.
+20-05-2025 23:06:13.635 [Gauge] [DEBUG] Parsing started.
+20-05-2025 23:06:13.635 [Gauge] [DEBUG] Started concepts parsing.
+20-05-2025 23:06:13.636 [Gauge] [DEBUG] 0 concepts parsing completed.
+20-05-2025 23:06:13.637 [Gauge] [DEBUG] Started specifications parsing.
+20-05-2025 23:06:13.637 [Gauge] [DEBUG] 1 specifications parsing completed.
+20-05-2025 23:06:13.637 [Gauge] [DEBUG] Parsing completed.
+20-05-2025 23:06:13.649 [java] [DEBUG] ***** Printing Properties/Env Values *****
+20-05-2025 23:06:13.649 [java] [DEBUG] PATH: C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Gauge\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Ruby33-x64\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\;C:\Program Files\MySQL\M;C:\Program Files\PostgreSQL\16\bin;C:\Users\kaops\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\Scripts\;C:\Gradle\gradle-8.14\bin;;C:\Users\kaops\AppData\Roaming\gauge\plugins\screenshot\0.3.1
+20-05-2025 23:06:13.649 [java] [DEBUG] JAVA_HOME: C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot
+20-05-2025 23:06:13.649 [java] [DEBUG] gauge_project_root: D:\DST2024\Semester 2\Agile\bddgauge
+20-05-2025 23:06:13.649 [java] [DEBUG] gauge_parallel_streams_count: 12
+20-05-2025 23:06:13.649 [java] [DEBUG] gauge_reports_dir: reports
+20-05-2025 23:06:13.649 [java] [DEBUG] overwrite_reports: true
+20-05-2025 23:06:13.649 [java] [DEBUG] logs_directory: logs
+20-05-2025 23:06:13.649 [java] [DEBUG] enable_multithreading: false
+20-05-2025 23:06:13.649 [java] [DEBUG] gauge_specs_dir: specs
+20-05-2025 23:06:13.649 [java] [DEBUG] csv_delimiter: ,
+20-05-2025 23:06:13.649 [java] [DEBUG] gauge_java_home: 
+20-05-2025 23:06:13.649 [java] [DEBUG] gauge_custom_build_path: 
+20-05-2025 23:06:13.649 [java] [DEBUG] gauge_additional_libs: libs/*
+20-05-2025 23:06:13.649 [java] [DEBUG] gauge_jvm_args: 
+20-05-2025 23:06:13.649 [java] [DEBUG] gauge_custom_compile_dir: 
+20-05-2025 23:06:13.649 [java] [DEBUG] gauge_clear_state_level: scenario
+20-05-2025 23:06:13.649 [java] [DEBUG] ***** END *****
+20-05-2025 23:06:14.320 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\kaops\AppData\Local\Temp\gauge_temp2890086021\75552ccf3251e74dd76eb47f6e345ce0]
+20-05-2025 23:06:14.320 [java] [DEBUG] stdout/stderr is logged to logs\25044-javac.exe.out
+20-05-2025 23:06:14.584 [Gauge] [DEBUG] Checking updates...
+20-05-2025 23:06:14.585 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+20-05-2025 23:06:14.736 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+20-05-2025 23:06:14.837 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+20-05-2025 23:06:15.157 [java] [DEBUG] classpath set to C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\*;C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\libs\*;D:\DST2024\Semester 2\Agile\bddgauge\libs\*;gauge_bin
+20-05-2025 23:06:15.174 [java] [DEBUG] found java executable in C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe
+20-05-2025 23:06:15.174 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+20-05-2025 23:06:15.174 [java] [DEBUG] stdout/stderr is logged to logs\25044-java.exe.out
+20-05-2025 23:06:15.269 [java] [DEBUG] multithreading is set to false
+20-05-2025 23:06:15.459 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+20-05-2025 23:06:15.481 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+20-05-2025 23:06:15.481 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+20-05-2025 23:06:15.481 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+20-05-2025 23:06:15.955 [java] [DEBUG] gauge-java took 684milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+20-05-2025 23:06:15.955 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 684
+20-05-2025 23:06:15.955 [java] [DEBUG] starting gRPC server...
+20-05-2025 23:06:16.037 [java] [DEBUG] started gRPC server on port 34158
+20-05-2025 23:06:16.037 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34158
+20-05-2025 23:06:16.037 [Gauge] [DEBUG] Successfully made the connection with runner with port: 34158
+20-05-2025 23:06:16.037 [Gauge] [DEBUG] Validation started.
+20-05-2025 23:06:16.500 [java] [DEBUG] Scanning packages for steps
+20-05-2025 23:06:16.508 [java] [DEBUG] Comparing 'example.StepImplementation.iHaveNavigatedToLoginPage' and 'example.StepImplementation.iHaveNavigatedToLoginPage'
+20-05-2025 23:06:16.509 [java] [DEBUG] Found I have navigated to the login page in current project scope.
+20-05-2025 23:06:16.510 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRemainOnLoginPage' and 'example.StepImplementation.shouldRemainOnLoginPage'
+20-05-2025 23:06:16.510 [java] [DEBUG] Found I should remain on the login page in current project scope.
+20-05-2025 23:06:16.510 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRedirectToDashboard' and 'example.StepImplementation.shouldRedirectToDashboard'
+20-05-2025 23:06:16.510 [java] [DEBUG] Found I should be redirected to the dashboard in current project scope.
+20-05-2025 23:06:16.510 [java] [DEBUG] Comparing 'example.StepImplementation.clickButton' and 'example.StepImplementation.clickButton'
+20-05-2025 23:06:16.510 [java] [DEBUG] Found I click on the {} button in current project scope.
+20-05-2025 23:06:16.510 [java] [DEBUG] Comparing 'example.StepImplementation.iAmOnTheLoginPage' and 'example.StepImplementation.iAmOnTheLoginPage'
+20-05-2025 23:06:16.510 [java] [DEBUG] Found I am on the login page in current project scope.
+20-05-2025 23:06:16.510 [java] [DEBUG] Comparing 'example.StepImplementation.enterIncorrectPassword' and 'example.StepImplementation.enterIncorrectPassword'
+20-05-2025 23:06:16.510 [java] [DEBUG] Found I enter my valid username but an incorrect password in current project scope.
+20-05-2025 23:06:16.510 [java] [DEBUG] Comparing 'example.StepImplementation.enterEmptyFields' and 'example.StepImplementation.enterEmptyFields'
+20-05-2025 23:06:16.510 [java] [DEBUG] Found I leave the username and password fields empty in current project scope.
+20-05-2025 23:06:16.511 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeWelcomeMessage' and 'example.StepImplementation.shouldSeeWelcomeMessage'
+20-05-2025 23:06:16.511 [java] [DEBUG] Found I should see a welcome message in current project scope.
+20-05-2025 23:06:16.511 [java] [DEBUG] Comparing 'example.StepImplementation.enterValidCredentials' and 'example.StepImplementation.enterValidCredentials'
+20-05-2025 23:06:16.511 [java] [DEBUG] Found I enter my valid username and password in current project scope.
+20-05-2025 23:06:16.511 [java] [DEBUG] Comparing 'example.StepImplementation.iAmRegisteredUser' and 'example.StepImplementation.iAmRegisteredUser'
+20-05-2025 23:06:16.511 [java] [DEBUG] Found I am a registered user in current project scope.
+20-05-2025 23:06:16.511 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeErrorMessage' and 'example.StepImplementation.shouldSeeErrorMessage'
+20-05-2025 23:06:16.511 [java] [DEBUG] Found I should see an error message saying {} in current project scope.
+20-05-2025 23:06:16.511 [java] [DEBUG] Scanning packages for hooks
+20-05-2025 23:06:16.516 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+20-05-2025 23:06:16.516 [java] [DEBUG] 	I enter my valid username and password : public void enterValidCredentials()
+20-05-2025 23:06:16.516 [java] [DEBUG] 	I click on the {} button : public void clickButton(String button)
+20-05-2025 23:06:16.516 [java] [DEBUG] 	I am a registered user : public void iAmRegisteredUser()
+20-05-2025 23:06:16.516 [java] [DEBUG] 	I am on the login page : public void iAmOnTheLoginPage()
+20-05-2025 23:06:16.516 [java] [DEBUG] 	I enter my valid username but an incorrect password : public void enterIncorrectPassword()
+20-05-2025 23:06:16.516 [java] [DEBUG] 	I should see a welcome message : public void shouldSeeWelcomeMessage()
+20-05-2025 23:06:16.516 [java] [DEBUG] 	I should remain on the login page : public void shouldRemainOnLoginPage()
+20-05-2025 23:06:16.516 [java] [DEBUG] 	I should be redirected to the dashboard : public void shouldRedirectToDashboard()
+20-05-2025 23:06:16.516 [java] [DEBUG] 	I have navigated to the login page : public void iHaveNavigatedToLoginPage()
+20-05-2025 23:06:16.516 [java] [DEBUG] 	I should see an error message saying {} : public void shouldSeeErrorMessage(String expectedMessage)
+20-05-2025 23:06:16.516 [java] [DEBUG] 	I leave the username and password fields empty : public void enterEmptyFields()
+20-05-2025 23:06:16.893 [Gauge] [DEBUG] Validation completed.
+20-05-2025 23:06:16.893 [Gauge] [DEBUG] Run started
+20-05-2025 23:06:16.894 [Gauge] [DEBUG] Starting Html Report plugin
+20-05-2025 23:06:16.907 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+20-05-2025 23:06:16.907 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34161
+20-05-2025 23:06:16.907 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 34161
+20-05-2025 23:06:16.907 [Gauge] [DEBUG] Initialising suite data store.
+20-05-2025 23:06:16.933 [Gauge] [INFO] # User Login
+20-05-2025 23:06:16.940 [Gauge] [INFO] ## Scenario 1: Successful Login
+20-05-2025 23:06:16.947 [Gauge] [DEBUG] * I am a registered user
+20-05-2025 23:06:16.958 [java] [DEBUG] Executing 'I am a registered user' using 'class example.StepImplementation.iAmRegisteredUser
+20-05-2025 23:06:16.972 [Gauge] [DEBUG] * I have navigated to the login page
+20-05-2025 23:06:16.977 [java] [DEBUG] Executing 'I have navigated to the login page' using 'class example.StepImplementation.iHaveNavigatedToLoginPage
+20-05-2025 23:06:16.982 [Gauge] [DEBUG] * I enter my valid username and password
+20-05-2025 23:06:16.985 [java] [DEBUG] Executing 'I enter my valid username and password' using 'class example.StepImplementation.enterValidCredentials
+20-05-2025 23:06:16.990 [Gauge] [DEBUG] * I click on the "Login" button
+20-05-2025 23:06:16.997 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+20-05-2025 23:06:16.997 [java] [INFO] Clicked the Login button.
+20-05-2025 23:06:17.001 [Gauge] [DEBUG] * I should be redirected to the dashboard
+20-05-2025 23:06:17.003 [java] [DEBUG] Executing 'I should be redirected to the dashboard' using 'class example.StepImplementation.shouldRedirectToDashboard
+20-05-2025 23:06:17.046 [Gauge] [DEBUG] * I should see a welcome message
+
+20-05-2025 23:06:17.049 [java] [DEBUG] Executing 'I should see a welcome message' using 'class example.StepImplementation.shouldSeeWelcomeMessage
+20-05-2025 23:06:17.053 [Gauge] [INFO] ## Scenario 2: Unsuccessful Login with Incorrect Password
+20-05-2025 23:06:17.057 [Gauge] [DEBUG] * I am a registered user
+20-05-2025 23:06:17.061 [java] [DEBUG] Executing 'I am a registered user' using 'class example.StepImplementation.iAmRegisteredUser
+20-05-2025 23:06:17.065 [Gauge] [DEBUG] * I have navigated to the login page
+20-05-2025 23:06:17.068 [java] [DEBUG] Executing 'I have navigated to the login page' using 'class example.StepImplementation.iHaveNavigatedToLoginPage
+20-05-2025 23:06:17.071 [Gauge] [DEBUG] * I enter my valid username but an incorrect password
+20-05-2025 23:06:17.074 [java] [DEBUG] Executing 'I enter my valid username but an incorrect password' using 'class example.StepImplementation.enterIncorrectPassword
+20-05-2025 23:06:17.077 [Gauge] [DEBUG] * I click on the "Login" button
+20-05-2025 23:06:17.080 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+20-05-2025 23:06:17.080 [java] [INFO] Clicked the Login button.
+20-05-2025 23:06:17.083 [Gauge] [DEBUG] * I should see an error message saying "Invalid credentials"
+20-05-2025 23:06:17.085 [java] [DEBUG] Executing 'I should see an error message saying {}' using 'class example.StepImplementation.shouldSeeErrorMessage
+20-05-2025 23:06:17.089 [Gauge] [DEBUG] * I should remain on the login page
+
+20-05-2025 23:06:17.092 [java] [DEBUG] Executing 'I should remain on the login page' using 'class example.StepImplementation.shouldRemainOnLoginPage
+20-05-2025 23:06:17.096 [Gauge] [INFO] ## Scenario 3: Login with Empty Fields
+20-05-2025 23:06:17.099 [Gauge] [DEBUG] * I am on the login page
+20-05-2025 23:06:17.101 [java] [DEBUG] Executing 'I am on the login page' using 'class example.StepImplementation.iAmOnTheLoginPage
+20-05-2025 23:06:17.103 [Gauge] [DEBUG] * I leave the username and password fields empty
+20-05-2025 23:06:17.106 [java] [DEBUG] Executing 'I leave the username and password fields empty' using 'class example.StepImplementation.enterEmptyFields
+20-05-2025 23:06:17.109 [Gauge] [DEBUG] * I click on the "Login" button
+20-05-2025 23:06:17.112 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+20-05-2025 23:06:17.112 [java] [INFO] Clicked the Login button.
+20-05-2025 23:06:17.114 [Gauge] [DEBUG] * I should see an error message saying "Username and Password are required"
+20-05-2025 23:06:17.116 [java] [DEBUG] Executing 'I should see an error message saying {}' using 'class example.StepImplementation.shouldSeeErrorMessage
+20-05-2025 23:06:17.129 [html-report] [DEBUG] Transformed SuiteResult to report structure
+20-05-2025 23:06:17.140 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+20-05-2025 23:06:17.140 [html-report] [INFO] Successfully generated html-report to => D:\DST2024\Semester 2\Agile\bddgauge\reports\html-report\index.html
+20-05-2025 23:06:17.140 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\kaops\AppData\Roaming\gauge\plugins\html-report\4.3.2\themes\default
+20-05-2025 23:06:17.142 [java] [DEBUG] Killing Java runner...
+20-05-2025 23:06:17.143 [java] [DEBUG] Stopping execution pool...
+20-05-2025 23:06:17.143 [java] [DEBUG] Shutting down grpc server...
+20-05-2025 23:06:17.147 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+20-05-2025 23:06:17.147 [Gauge] [INFO] Scenarios:	3 executed	3 passed	0 failed	0 skipped
+20-05-2025 23:06:17.147 [Gauge] [INFO] 
+Total time taken: 235ms
+20-05-2025 23:07:42.472 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\DST2024\Semester 2\Agile\bddgauge\.gauge\screenshots
+20-05-2025 23:07:42.473 [Gauge] [DEBUG] Plugin java is already installed.
+20-05-2025 23:07:42.473 [Gauge] [DEBUG] Plugin html-report is already installed.
+20-05-2025 23:07:42.473 [Gauge] [DEBUG] Parsing started.
+20-05-2025 23:07:42.473 [Gauge] [DEBUG] Started concepts parsing.
+20-05-2025 23:07:42.474 [Gauge] [DEBUG] 0 concepts parsing completed.
+20-05-2025 23:07:42.474 [Gauge] [DEBUG] Started specifications parsing.
+20-05-2025 23:07:42.475 [Gauge] [DEBUG] 1 specifications parsing completed.
+20-05-2025 23:07:42.475 [Gauge] [DEBUG] Parsing completed.
+20-05-2025 23:07:42.486 [java] [DEBUG] ***** Printing Properties/Env Values *****
+20-05-2025 23:07:42.487 [java] [DEBUG] PATH: C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Gauge\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Ruby33-x64\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\;C:\Program Files\MySQL\M;C:\Program Files\PostgreSQL\16\bin;C:\Users\kaops\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\Scripts\;C:\Gradle\gradle-8.14\bin;;C:\Users\kaops\AppData\Roaming\gauge\plugins\screenshot\0.3.1
+20-05-2025 23:07:42.487 [java] [DEBUG] JAVA_HOME: C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot
+20-05-2025 23:07:42.487 [java] [DEBUG] gauge_project_root: D:\DST2024\Semester 2\Agile\bddgauge
+20-05-2025 23:07:42.487 [java] [DEBUG] gauge_parallel_streams_count: 12
+20-05-2025 23:07:42.487 [java] [DEBUG] gauge_reports_dir: reports
+20-05-2025 23:07:42.487 [java] [DEBUG] overwrite_reports: true
+20-05-2025 23:07:42.487 [java] [DEBUG] logs_directory: logs
+20-05-2025 23:07:42.487 [java] [DEBUG] enable_multithreading: false
+20-05-2025 23:07:42.487 [java] [DEBUG] gauge_specs_dir: specs
+20-05-2025 23:07:42.487 [java] [DEBUG] csv_delimiter: ,
+20-05-2025 23:07:42.487 [java] [DEBUG] gauge_java_home: 
+20-05-2025 23:07:42.487 [java] [DEBUG] gauge_custom_build_path: 
+20-05-2025 23:07:42.487 [java] [DEBUG] gauge_additional_libs: libs/*
+20-05-2025 23:07:42.487 [java] [DEBUG] gauge_jvm_args: 
+20-05-2025 23:07:42.487 [java] [DEBUG] gauge_custom_compile_dir: 
+20-05-2025 23:07:42.487 [java] [DEBUG] gauge_clear_state_level: scenario
+20-05-2025 23:07:42.487 [java] [DEBUG] ***** END *****
+20-05-2025 23:07:43.180 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\kaops\AppData\Local\Temp\gauge_temp1314048895\2e7501daa41e64c2356cacf636436508]
+20-05-2025 23:07:43.180 [java] [DEBUG] stdout/stderr is logged to logs\25092-javac.exe.out
+20-05-2025 23:07:43.202 [Gauge] [DEBUG] Checking updates...
+20-05-2025 23:07:43.202 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+20-05-2025 23:07:43.319 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+20-05-2025 23:07:43.369 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+20-05-2025 23:07:44.007 [java] [DEBUG] classpath set to C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\*;C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\libs\*;D:\DST2024\Semester 2\Agile\bddgauge\libs\*;gauge_bin
+20-05-2025 23:07:44.024 [java] [DEBUG] found java executable in C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe
+20-05-2025 23:07:44.024 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+20-05-2025 23:07:44.024 [java] [DEBUG] stdout/stderr is logged to logs\25092-java.exe.out
+20-05-2025 23:07:44.119 [java] [DEBUG] multithreading is set to false
+20-05-2025 23:07:44.311 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+20-05-2025 23:07:44.334 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+20-05-2025 23:07:44.334 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+20-05-2025 23:07:44.334 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+20-05-2025 23:07:44.805 [java] [DEBUG] gauge-java took 683milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+20-05-2025 23:07:44.805 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 683
+20-05-2025 23:07:44.805 [java] [DEBUG] starting gRPC server...
+20-05-2025 23:07:44.904 [java] [DEBUG] started gRPC server on port 34180
+20-05-2025 23:07:44.905 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34180
+20-05-2025 23:07:44.905 [Gauge] [DEBUG] Successfully made the connection with runner with port: 34180
+20-05-2025 23:07:44.906 [Gauge] [DEBUG] Validation started.
+20-05-2025 23:07:45.390 [java] [DEBUG] Scanning packages for steps
+20-05-2025 23:07:45.396 [java] [DEBUG] Comparing 'example.StepImplementation.iHaveNavigatedToLoginPage' and 'example.StepImplementation.iHaveNavigatedToLoginPage'
+20-05-2025 23:07:45.397 [java] [DEBUG] Found I have navigated to the login page in current project scope.
+20-05-2025 23:07:45.398 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRemainOnLoginPage' and 'example.StepImplementation.shouldRemainOnLoginPage'
+20-05-2025 23:07:45.398 [java] [DEBUG] Found I should remain on the login page in current project scope.
+20-05-2025 23:07:45.398 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRedirectToDashboard' and 'example.StepImplementation.shouldRedirectToDashboard'
+20-05-2025 23:07:45.398 [java] [DEBUG] Found I should be redirected to the dashboard in current project scope.
+20-05-2025 23:07:45.398 [java] [DEBUG] Comparing 'example.StepImplementation.clickButton' and 'example.StepImplementation.clickButton'
+20-05-2025 23:07:45.398 [java] [DEBUG] Found I click on the {} button in current project scope.
+20-05-2025 23:07:45.398 [java] [DEBUG] Comparing 'example.StepImplementation.iAmOnTheLoginPage' and 'example.StepImplementation.iAmOnTheLoginPage'
+20-05-2025 23:07:45.398 [java] [DEBUG] Found I am on the login page in current project scope.
+20-05-2025 23:07:45.398 [java] [DEBUG] Comparing 'example.StepImplementation.enterIncorrectPassword' and 'example.StepImplementation.enterIncorrectPassword'
+20-05-2025 23:07:45.398 [java] [DEBUG] Found I enter my valid username but an incorrect password in current project scope.
+20-05-2025 23:07:45.398 [java] [DEBUG] Comparing 'example.StepImplementation.enterEmptyFields' and 'example.StepImplementation.enterEmptyFields'
+20-05-2025 23:07:45.398 [java] [DEBUG] Found I leave the username and password fields empty in current project scope.
+20-05-2025 23:07:45.398 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeWelcomeMessage' and 'example.StepImplementation.shouldSeeWelcomeMessage'
+20-05-2025 23:07:45.398 [java] [DEBUG] Found I should see a welcome message in current project scope.
+20-05-2025 23:07:45.398 [java] [DEBUG] Comparing 'example.StepImplementation.enterValidCredentials' and 'example.StepImplementation.enterValidCredentials'
+20-05-2025 23:07:45.398 [java] [DEBUG] Found I enter my valid username and password in current project scope.
+20-05-2025 23:07:45.399 [java] [DEBUG] Comparing 'example.StepImplementation.iAmRegisteredUser' and 'example.StepImplementation.iAmRegisteredUser'
+20-05-2025 23:07:45.399 [java] [DEBUG] Found I am a registered user in current project scope.
+20-05-2025 23:07:45.399 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeErrorMessage' and 'example.StepImplementation.shouldSeeErrorMessage'
+20-05-2025 23:07:45.399 [java] [DEBUG] Found I should see an error message saying {} in current project scope.
+20-05-2025 23:07:45.399 [java] [DEBUG] Scanning packages for hooks
+20-05-2025 23:07:45.402 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+20-05-2025 23:07:45.402 [java] [DEBUG] 	I enter my valid username and password : public void enterValidCredentials()
+20-05-2025 23:07:45.402 [java] [DEBUG] 	I click on the {} button : public void clickButton(String button)
+20-05-2025 23:07:45.402 [java] [DEBUG] 	I am a registered user : public void iAmRegisteredUser()
+20-05-2025 23:07:45.402 [java] [DEBUG] 	I am on the login page : public void iAmOnTheLoginPage()
+20-05-2025 23:07:45.402 [java] [DEBUG] 	I enter my valid username but an incorrect password : public void enterIncorrectPassword()
+20-05-2025 23:07:45.402 [java] [DEBUG] 	I should see a welcome message : public void shouldSeeWelcomeMessage()
+20-05-2025 23:07:45.402 [java] [DEBUG] 	I should remain on the login page : public void shouldRemainOnLoginPage()
+20-05-2025 23:07:45.402 [java] [DEBUG] 	I should be redirected to the dashboard : public void shouldRedirectToDashboard()
+20-05-2025 23:07:45.402 [java] [DEBUG] 	I have navigated to the login page : public void iHaveNavigatedToLoginPage()
+20-05-2025 23:07:45.402 [java] [DEBUG] 	I should see an error message saying {} : public void shouldSeeErrorMessage(String expectedMessage)
+20-05-2025 23:07:45.402 [java] [DEBUG] 	I leave the username and password fields empty : public void enterEmptyFields()
+20-05-2025 23:07:45.810 [Gauge] [DEBUG] Validation completed.
+20-05-2025 23:07:45.811 [Gauge] [DEBUG] Run started
+20-05-2025 23:07:45.812 [Gauge] [DEBUG] Starting Html Report plugin
+20-05-2025 23:07:45.825 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+20-05-2025 23:07:45.825 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34183
+20-05-2025 23:07:45.825 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 34183
+20-05-2025 23:07:45.825 [Gauge] [DEBUG] Initialising suite data store.
+20-05-2025 23:07:45.852 [Gauge] [INFO] # User Login
+20-05-2025 23:07:45.860 [Gauge] [INFO] ## Scenario 1: Successful Login
+20-05-2025 23:07:45.867 [Gauge] [DEBUG] * I am a registered user
+20-05-2025 23:07:45.881 [java] [DEBUG] Executing 'I am a registered user' using 'class example.StepImplementation.iAmRegisteredUser
+20-05-2025 23:07:45.895 [Gauge] [DEBUG] * I have navigated to the login page
+20-05-2025 23:07:45.902 [java] [DEBUG] Executing 'I have navigated to the login page' using 'class example.StepImplementation.iHaveNavigatedToLoginPage
+20-05-2025 23:07:45.906 [Gauge] [DEBUG] * I enter my valid username and password
+20-05-2025 23:07:45.911 [java] [DEBUG] Executing 'I enter my valid username and password' using 'class example.StepImplementation.enterValidCredentials
+20-05-2025 23:07:45.918 [Gauge] [DEBUG] * I click on the "Login" button
+20-05-2025 23:07:45.924 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+20-05-2025 23:07:45.927 [Gauge] [DEBUG] * I should be redirected to the dashboard
+20-05-2025 23:07:45.931 [java] [DEBUG] Executing 'I should be redirected to the dashboard' using 'class example.StepImplementation.shouldRedirectToDashboard
+20-05-2025 23:07:45.965 [Gauge] [DEBUG] * I should see a welcome message
+
+20-05-2025 23:07:45.968 [java] [DEBUG] Executing 'I should see a welcome message' using 'class example.StepImplementation.shouldSeeWelcomeMessage
+20-05-2025 23:07:45.973 [Gauge] [INFO] ## Scenario 2: Unsuccessful Login with Incorrect Password
+20-05-2025 23:07:45.976 [Gauge] [DEBUG] * I am a registered user
+20-05-2025 23:07:45.980 [java] [DEBUG] Executing 'I am a registered user' using 'class example.StepImplementation.iAmRegisteredUser
+20-05-2025 23:07:45.983 [Gauge] [DEBUG] * I have navigated to the login page
+20-05-2025 23:07:45.986 [java] [DEBUG] Executing 'I have navigated to the login page' using 'class example.StepImplementation.iHaveNavigatedToLoginPage
+20-05-2025 23:07:45.989 [Gauge] [DEBUG] * I enter my valid username but an incorrect password
+20-05-2025 23:07:45.991 [java] [DEBUG] Executing 'I enter my valid username but an incorrect password' using 'class example.StepImplementation.enterIncorrectPassword
+20-05-2025 23:07:45.993 [Gauge] [DEBUG] * I click on the "Login" button
+20-05-2025 23:07:45.996 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+20-05-2025 23:07:45.999 [Gauge] [DEBUG] * I should see an error message saying "Invalid credentials"
+20-05-2025 23:07:46.002 [java] [DEBUG] Executing 'I should see an error message saying {}' using 'class example.StepImplementation.shouldSeeErrorMessage
+20-05-2025 23:07:46.004 [Gauge] [DEBUG] * I should remain on the login page
+
+20-05-2025 23:07:46.006 [java] [DEBUG] Executing 'I should remain on the login page' using 'class example.StepImplementation.shouldRemainOnLoginPage
+20-05-2025 23:07:46.011 [Gauge] [INFO] ## Scenario 3: Login with Empty Fields
+20-05-2025 23:07:46.015 [Gauge] [DEBUG] * I am on the login page
+20-05-2025 23:07:46.018 [java] [DEBUG] Executing 'I am on the login page' using 'class example.StepImplementation.iAmOnTheLoginPage
+20-05-2025 23:07:46.020 [Gauge] [DEBUG] * I leave the username and password fields empty
+20-05-2025 23:07:46.024 [java] [DEBUG] Executing 'I leave the username and password fields empty' using 'class example.StepImplementation.enterEmptyFields
+20-05-2025 23:07:46.026 [Gauge] [DEBUG] * I click on the "Login" button
+20-05-2025 23:07:46.027 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+20-05-2025 23:07:46.029 [Gauge] [DEBUG] * I should see an error message saying "Username and Password are required"
+20-05-2025 23:07:46.031 [java] [DEBUG] Executing 'I should see an error message saying {}' using 'class example.StepImplementation.shouldSeeErrorMessage
+20-05-2025 23:07:46.040 [html-report] [DEBUG] Transformed SuiteResult to report structure
+20-05-2025 23:07:46.049 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+20-05-2025 23:07:46.049 [html-report] [INFO] Successfully generated html-report to => D:\DST2024\Semester 2\Agile\bddgauge\reports\html-report\index.html
+20-05-2025 23:07:46.049 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\kaops\AppData\Roaming\gauge\plugins\html-report\4.3.2\themes\default
+20-05-2025 23:07:46.050 [java] [DEBUG] Killing Java runner...
+20-05-2025 23:07:46.052 [java] [DEBUG] Stopping execution pool...
+20-05-2025 23:07:46.052 [java] [DEBUG] Shutting down grpc server...
+20-05-2025 23:07:46.054 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+20-05-2025 23:07:46.055 [Gauge] [INFO] Scenarios:	3 executed	3 passed	0 failed	0 skipped
+20-05-2025 23:07:46.055 [Gauge] [INFO] 
+Total time taken: 228ms
+23-05-2025 00:43:22.159 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\DST2024\Semester 2\Agile\bddgauge\.gauge\screenshots
+23-05-2025 00:43:22.161 [Gauge] [DEBUG] Plugin java is already installed.
+23-05-2025 00:43:22.161 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-05-2025 00:43:22.163 [Gauge] [DEBUG] Parsing started.
+23-05-2025 00:43:22.163 [Gauge] [DEBUG] Started concepts parsing.
+23-05-2025 00:43:22.164 [Gauge] [DEBUG] 0 concepts parsing completed.
+23-05-2025 00:43:22.164 [Gauge] [DEBUG] Started specifications parsing.
+23-05-2025 00:43:22.164 [Gauge] [DEBUG] 1 specifications parsing completed.
+23-05-2025 00:43:22.165 [Gauge] [DEBUG] Parsing completed.
+23-05-2025 00:43:22.179 [java] [DEBUG] ***** Printing Properties/Env Values *****
+23-05-2025 00:43:22.179 [java] [DEBUG] PATH: C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Gauge\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Ruby33-x64\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\;C:\Program Files\MySQL\M;C:\Program Files\PostgreSQL\16\bin;C:\Users\kaops\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\Scripts\;C:\Gradle\gradle-8.14\bin;;c:\Users\kaops\.vscode\extensions\ms-python.debugpy-2025.8.0-win32-x64\bundled\scripts\noConfigScripts;C:\Users\kaops\AppData\Roaming\gauge\plugins\screenshot\0.3.1
+23-05-2025 00:43:22.179 [java] [DEBUG] JAVA_HOME: C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot
+23-05-2025 00:43:22.179 [java] [DEBUG] gauge_project_root: D:\DST2024\Semester 2\Agile\bddgauge
+23-05-2025 00:43:22.179 [java] [DEBUG] gauge_parallel_streams_count: 12
+23-05-2025 00:43:22.179 [java] [DEBUG] gauge_reports_dir: reports
+23-05-2025 00:43:22.179 [java] [DEBUG] overwrite_reports: true
+23-05-2025 00:43:22.179 [java] [DEBUG] logs_directory: logs
+23-05-2025 00:43:22.179 [java] [DEBUG] enable_multithreading: false
+23-05-2025 00:43:22.179 [java] [DEBUG] gauge_specs_dir: specs
+23-05-2025 00:43:22.179 [java] [DEBUG] csv_delimiter: ,
+23-05-2025 00:43:22.179 [java] [DEBUG] gauge_java_home: 
+23-05-2025 00:43:22.179 [java] [DEBUG] gauge_custom_build_path: 
+23-05-2025 00:43:22.179 [java] [DEBUG] gauge_additional_libs: libs/*
+23-05-2025 00:43:22.179 [java] [DEBUG] gauge_jvm_args: 
+23-05-2025 00:43:22.179 [java] [DEBUG] gauge_custom_compile_dir: 
+23-05-2025 00:43:22.179 [java] [DEBUG] gauge_clear_state_level: scenario
+23-05-2025 00:43:22.179 [java] [DEBUG] ***** END *****
+23-05-2025 00:43:23.032 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\kaops\AppData\Local\Temp\gauge_temp2500740357\cd969bc3e77a8d04678f610ff588e35f]
+23-05-2025 00:43:23.032 [java] [DEBUG] stdout/stderr is logged to logs\25808-javac.exe.out
+23-05-2025 00:43:23.035 [Gauge] [DEBUG] Checking updates...
+23-05-2025 00:43:23.036 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+23-05-2025 00:43:23.471 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+23-05-2025 00:43:23.527 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+23-05-2025 00:43:23.912 [java] [DEBUG] classpath set to C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\*;C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\libs\*;D:\DST2024\Semester 2\Agile\bddgauge\libs\*;gauge_bin
+23-05-2025 00:43:23.931 [java] [DEBUG] found java executable in C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe
+23-05-2025 00:43:23.931 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+23-05-2025 00:43:23.931 [java] [DEBUG] stdout/stderr is logged to logs\25808-java.exe.out
+23-05-2025 00:43:24.038 [java] [DEBUG] multithreading is set to false
+23-05-2025 00:43:24.247 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+23-05-2025 00:43:24.275 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+23-05-2025 00:43:24.275 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+23-05-2025 00:43:24.275 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+23-05-2025 00:43:24.734 [java] [DEBUG] gauge-java took 694milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+23-05-2025 00:43:24.734 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 694
+23-05-2025 00:43:24.734 [java] [DEBUG] starting gRPC server...
+23-05-2025 00:43:24.816 [java] [DEBUG] started gRPC server on port 22982
+23-05-2025 00:43:24.816 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 22982
+23-05-2025 00:43:24.817 [Gauge] [DEBUG] Successfully made the connection with runner with port: 22982
+23-05-2025 00:43:24.817 [Gauge] [DEBUG] Validation started.
+23-05-2025 00:43:25.368 [java] [DEBUG] Scanning packages for steps
+23-05-2025 00:43:25.376 [java] [DEBUG] Comparing 'example.StepImplementation.iHaveNavigatedToLoginPage' and 'example.StepImplementation.iHaveNavigatedToLoginPage'
+23-05-2025 00:43:25.378 [java] [DEBUG] Found I have navigated to the login page in current project scope.
+23-05-2025 00:43:25.378 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRemainOnLoginPage' and 'example.StepImplementation.shouldRemainOnLoginPage'
+23-05-2025 00:43:25.378 [java] [DEBUG] Found I should remain on the login page in current project scope.
+23-05-2025 00:43:25.378 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRedirectToDashboard' and 'example.StepImplementation.shouldRedirectToDashboard'
+23-05-2025 00:43:25.378 [java] [DEBUG] Found I should be redirected to the dashboard in current project scope.
+23-05-2025 00:43:25.378 [java] [DEBUG] Comparing 'example.StepImplementation.clickButton' and 'example.StepImplementation.clickButton'
+23-05-2025 00:43:25.378 [java] [DEBUG] Found I click on the {} button in current project scope.
+23-05-2025 00:43:25.378 [java] [DEBUG] Comparing 'example.StepImplementation.iAmOnTheLoginPage' and 'example.StepImplementation.iAmOnTheLoginPage'
+23-05-2025 00:43:25.378 [java] [DEBUG] Found I am on the login page in current project scope.
+23-05-2025 00:43:25.378 [java] [DEBUG] Comparing 'example.StepImplementation.enterIncorrectPassword' and 'example.StepImplementation.enterIncorrectPassword'
+23-05-2025 00:43:25.379 [java] [DEBUG] Found I enter my valid username but an incorrect password in current project scope.
+23-05-2025 00:43:25.379 [java] [DEBUG] Comparing 'example.StepImplementation.enterEmptyFields' and 'example.StepImplementation.enterEmptyFields'
+23-05-2025 00:43:25.379 [java] [DEBUG] Found I leave the username and password fields empty in current project scope.
+23-05-2025 00:43:25.379 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeWelcomeMessage' and 'example.StepImplementation.shouldSeeWelcomeMessage'
+23-05-2025 00:43:25.379 [java] [DEBUG] Found I should see a welcome message in current project scope.
+23-05-2025 00:43:25.379 [java] [DEBUG] Comparing 'example.StepImplementation.enterValidCredentials' and 'example.StepImplementation.enterValidCredentials'
+23-05-2025 00:43:25.379 [java] [DEBUG] Found I enter my valid username and password in current project scope.
+23-05-2025 00:43:25.379 [java] [DEBUG] Comparing 'example.StepImplementation.iAmRegisteredUser' and 'example.StepImplementation.iAmRegisteredUser'
+23-05-2025 00:43:25.379 [java] [DEBUG] Found I am a registered user in current project scope.
+23-05-2025 00:43:25.379 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeErrorMessage' and 'example.StepImplementation.shouldSeeErrorMessage'
+23-05-2025 00:43:25.379 [java] [DEBUG] Found I should see an error message saying {} in current project scope.
+23-05-2025 00:43:25.379 [java] [DEBUG] Scanning packages for hooks
+23-05-2025 00:43:25.381 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+23-05-2025 00:43:25.381 [java] [DEBUG] 	I enter my valid username and password : public void enterValidCredentials()
+23-05-2025 00:43:25.381 [java] [DEBUG] 	I click on the {} button : public void clickButton(String button)
+23-05-2025 00:43:25.381 [java] [DEBUG] 	I am a registered user : public void iAmRegisteredUser()
+23-05-2025 00:43:25.381 [java] [DEBUG] 	I am on the login page : public void iAmOnTheLoginPage()
+23-05-2025 00:43:25.381 [java] [DEBUG] 	I enter my valid username but an incorrect password : public void enterIncorrectPassword()
+23-05-2025 00:43:25.381 [java] [DEBUG] 	I should see a welcome message : public void shouldSeeWelcomeMessage()
+23-05-2025 00:43:25.381 [java] [DEBUG] 	I should remain on the login page : public void shouldRemainOnLoginPage()
+23-05-2025 00:43:25.381 [java] [DEBUG] 	I should be redirected to the dashboard : public void shouldRedirectToDashboard()
+23-05-2025 00:43:25.381 [java] [DEBUG] 	I have navigated to the login page : public void iHaveNavigatedToLoginPage()
+23-05-2025 00:43:25.382 [java] [DEBUG] 	I should see an error message saying {} : public void shouldSeeErrorMessage(String expectedMessage)
+23-05-2025 00:43:25.382 [java] [DEBUG] 	I leave the username and password fields empty : public void enterEmptyFields()
+23-05-2025 00:43:25.793 [Gauge] [DEBUG] Validation completed.
+23-05-2025 00:43:25.793 [Gauge] [DEBUG] Run started
+23-05-2025 00:43:25.794 [Gauge] [DEBUG] Starting Html Report plugin
+23-05-2025 00:43:25.917 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+23-05-2025 00:43:25.917 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 22985
+23-05-2025 00:43:25.917 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 22985
+23-05-2025 00:43:25.917 [Gauge] [DEBUG] Initialising suite data store.
+23-05-2025 00:43:25.953 [Gauge] [INFO] # User Login
+23-05-2025 00:43:25.963 [Gauge] [INFO] ## Scenario 1: Successful Login
+23-05-2025 00:43:25.980 [Gauge] [DEBUG] * I am a registered user
+23-05-2025 00:43:26.004 [java] [DEBUG] Executing 'I am a registered user' using 'class example.StepImplementation.iAmRegisteredUser
+23-05-2025 00:43:26.017 [Gauge] [DEBUG] * I have navigated to the login page
+23-05-2025 00:43:26.023 [java] [DEBUG] Executing 'I have navigated to the login page' using 'class example.StepImplementation.iHaveNavigatedToLoginPage
+23-05-2025 00:43:26.027 [Gauge] [DEBUG] * I enter my valid username and password
+23-05-2025 00:43:26.031 [java] [DEBUG] Executing 'I enter my valid username and password' using 'class example.StepImplementation.enterValidCredentials
+23-05-2025 00:43:26.035 [Gauge] [DEBUG] * I click on the "Login" button
+23-05-2025 00:43:26.042 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+23-05-2025 00:43:26.048 [Gauge] [DEBUG] * I should be redirected to the dashboard
+23-05-2025 00:43:26.051 [java] [DEBUG] Executing 'I should be redirected to the dashboard' using 'class example.StepImplementation.shouldRedirectToDashboard
+23-05-2025 00:43:26.093 [Gauge] [DEBUG] * I should see a welcome message
+
+23-05-2025 00:43:26.095 [java] [DEBUG] Executing 'I should see a welcome message' using 'class example.StepImplementation.shouldSeeWelcomeMessage
+23-05-2025 00:43:26.101 [Gauge] [INFO] ## Scenario 2: Unsuccessful Login with Incorrect Password
+23-05-2025 00:43:26.107 [Gauge] [DEBUG] * I am a registered user
+23-05-2025 00:43:26.110 [java] [DEBUG] Executing 'I am a registered user' using 'class example.StepImplementation.iAmRegisteredUser
+23-05-2025 00:43:26.113 [Gauge] [DEBUG] * I have navigated to the login page
+23-05-2025 00:43:26.116 [java] [DEBUG] Executing 'I have navigated to the login page' using 'class example.StepImplementation.iHaveNavigatedToLoginPage
+23-05-2025 00:43:26.118 [Gauge] [DEBUG] * I enter my valid username but an incorrect password
+23-05-2025 00:43:26.124 [java] [DEBUG] Executing 'I enter my valid username but an incorrect password' using 'class example.StepImplementation.enterIncorrectPassword
+23-05-2025 00:43:26.128 [Gauge] [DEBUG] * I click on the "Login" button
+23-05-2025 00:43:26.131 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+23-05-2025 00:43:26.133 [Gauge] [DEBUG] * I should see an error message saying "Invalid credentials"
+23-05-2025 00:43:26.136 [java] [DEBUG] Executing 'I should see an error message saying {}' using 'class example.StepImplementation.shouldSeeErrorMessage
+23-05-2025 00:43:26.138 [Gauge] [DEBUG] * I should remain on the login page
+
+23-05-2025 00:43:26.141 [java] [DEBUG] Executing 'I should remain on the login page' using 'class example.StepImplementation.shouldRemainOnLoginPage
+23-05-2025 00:43:26.149 [Gauge] [INFO] ## Scenario 3: Login with Empty Fields
+23-05-2025 00:43:26.153 [Gauge] [DEBUG] * I am on the login page
+23-05-2025 00:43:26.159 [java] [DEBUG] Executing 'I am on the login page' using 'class example.StepImplementation.iAmOnTheLoginPage
+23-05-2025 00:43:26.162 [Gauge] [DEBUG] * I leave the username and password fields empty
+23-05-2025 00:43:26.167 [java] [DEBUG] Executing 'I leave the username and password fields empty' using 'class example.StepImplementation.enterEmptyFields
+23-05-2025 00:43:26.172 [Gauge] [DEBUG] * I click on the "Login" button
+23-05-2025 00:43:26.177 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+23-05-2025 00:43:26.179 [Gauge] [DEBUG] * I should see an error message saying "Username and Password are required"
+23-05-2025 00:43:26.184 [java] [DEBUG] Executing 'I should see an error message saying {}' using 'class example.StepImplementation.shouldSeeErrorMessage
+23-05-2025 00:43:26.201 [html-report] [DEBUG] Transformed SuiteResult to report structure
+23-05-2025 00:43:26.308 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+23-05-2025 00:43:26.308 [html-report] [INFO] Successfully generated html-report to => D:\DST2024\Semester 2\Agile\bddgauge\reports\html-report\index.html
+23-05-2025 00:43:26.308 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\kaops\AppData\Roaming\gauge\plugins\html-report\4.3.2\themes\default
+23-05-2025 00:43:26.310 [java] [DEBUG] Killing Java runner...
+23-05-2025 00:43:26.311 [java] [DEBUG] Stopping execution pool...
+23-05-2025 00:43:26.311 [java] [DEBUG] Shutting down grpc server...
+23-05-2025 00:43:26.314 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+23-05-2025 00:43:26.314 [Gauge] [INFO] Scenarios:	3 executed	3 passed	0 failed	0 skipped
+23-05-2025 00:43:26.314 [Gauge] [INFO] 
+Total time taken: 407ms
+23-05-2025 00:43:26.315 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+23-05-2025 00:48:46.025 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\DST2024\Semester 2\Agile\bddgauge\.gauge\screenshots
+23-05-2025 00:48:46.025 [Gauge] [DEBUG] Plugin java is already installed.
+23-05-2025 00:48:46.026 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-05-2025 00:48:46.026 [Gauge] [DEBUG] Parsing started.
+23-05-2025 00:48:46.026 [Gauge] [DEBUG] Started concepts parsing.
+23-05-2025 00:48:46.028 [Gauge] [DEBUG] 0 concepts parsing completed.
+23-05-2025 00:48:46.028 [Gauge] [DEBUG] Started specifications parsing.
+23-05-2025 00:48:46.028 [Gauge] [DEBUG] 1 specifications parsing completed.
+23-05-2025 00:48:46.028 [Gauge] [DEBUG] Parsing completed.
+23-05-2025 00:48:46.038 [java] [DEBUG] ***** Printing Properties/Env Values *****
+23-05-2025 00:48:46.038 [java] [DEBUG] PATH: C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Gauge\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Ruby33-x64\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\;C:\Program Files\MySQL\M;C:\Program Files\PostgreSQL\16\bin;C:\Users\kaops\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\Scripts\;C:\Gradle\gradle-8.14\bin;;c:\Users\kaops\.vscode\extensions\ms-python.debugpy-2025.8.0-win32-x64\bundled\scripts\noConfigScripts;C:\Users\kaops\AppData\Roaming\gauge\plugins\screenshot\0.3.1
+23-05-2025 00:48:46.038 [java] [DEBUG] JAVA_HOME: C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot
+23-05-2025 00:48:46.038 [java] [DEBUG] gauge_project_root: D:\DST2024\Semester 2\Agile\bddgauge
+23-05-2025 00:48:46.038 [java] [DEBUG] gauge_parallel_streams_count: 12
+23-05-2025 00:48:46.038 [java] [DEBUG] gauge_reports_dir: reports
+23-05-2025 00:48:46.038 [java] [DEBUG] overwrite_reports: true
+23-05-2025 00:48:46.038 [java] [DEBUG] logs_directory: logs
+23-05-2025 00:48:46.038 [java] [DEBUG] enable_multithreading: false
+23-05-2025 00:48:46.038 [java] [DEBUG] gauge_specs_dir: specs
+23-05-2025 00:48:46.038 [java] [DEBUG] csv_delimiter: ,
+23-05-2025 00:48:46.038 [java] [DEBUG] gauge_java_home: 
+23-05-2025 00:48:46.038 [java] [DEBUG] gauge_custom_build_path: 
+23-05-2025 00:48:46.038 [java] [DEBUG] gauge_additional_libs: libs/*
+23-05-2025 00:48:46.038 [java] [DEBUG] gauge_jvm_args: 
+23-05-2025 00:48:46.038 [java] [DEBUG] gauge_custom_compile_dir: 
+23-05-2025 00:48:46.038 [java] [DEBUG] gauge_clear_state_level: scenario
+23-05-2025 00:48:46.038 [java] [DEBUG] ***** END *****
+23-05-2025 00:48:46.751 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\kaops\AppData\Local\Temp\gauge_temp2856263049\b08e28d496108742c9f41f56c9623baa]
+23-05-2025 00:48:46.752 [java] [DEBUG] stdout/stderr is logged to logs\30452-javac.exe.out
+23-05-2025 00:48:46.952 [Gauge] [DEBUG] Checking updates...
+23-05-2025 00:48:46.953 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+23-05-2025 00:48:47.139 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+23-05-2025 00:48:47.193 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+23-05-2025 00:48:47.612 [java] [DEBUG] classpath set to C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\*;C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\libs\*;D:\DST2024\Semester 2\Agile\bddgauge\libs\*;gauge_bin
+23-05-2025 00:48:47.634 [java] [DEBUG] found java executable in C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe
+23-05-2025 00:48:47.634 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+23-05-2025 00:48:47.634 [java] [DEBUG] stdout/stderr is logged to logs\30452-java.exe.out
+23-05-2025 00:48:47.735 [java] [DEBUG] multithreading is set to false
+23-05-2025 00:48:47.946 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+23-05-2025 00:48:47.968 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+23-05-2025 00:48:47.969 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+23-05-2025 00:48:47.969 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+23-05-2025 00:48:48.417 [java] [DEBUG] gauge-java took 679milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+23-05-2025 00:48:48.417 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 679
+23-05-2025 00:48:48.417 [java] [DEBUG] starting gRPC server...
+23-05-2025 00:48:48.546 [java] [DEBUG] started gRPC server on port 23012
+23-05-2025 00:48:48.546 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 23012
+23-05-2025 00:48:48.547 [Gauge] [DEBUG] Successfully made the connection with runner with port: 23012
+23-05-2025 00:48:48.547 [Gauge] [DEBUG] Validation started.
+23-05-2025 00:48:49.041 [java] [DEBUG] Scanning packages for steps
+23-05-2025 00:48:49.048 [java] [DEBUG] Comparing 'example.StepImplementation.iHaveNavigatedToLoginPage' and 'example.StepImplementation.iHaveNavigatedToLoginPage'
+23-05-2025 00:48:49.049 [java] [DEBUG] Found I have navigated to the login page in current project scope.
+23-05-2025 00:48:49.049 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRemainOnLoginPage' and 'example.StepImplementation.shouldRemainOnLoginPage'
+23-05-2025 00:48:49.049 [java] [DEBUG] Found I should remain on the login page in current project scope.
+23-05-2025 00:48:49.050 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRedirectToDashboard' and 'example.StepImplementation.shouldRedirectToDashboard'
+23-05-2025 00:48:49.050 [java] [DEBUG] Found I should be redirected to the dashboard in current project scope.
+23-05-2025 00:48:49.050 [java] [DEBUG] Comparing 'example.StepImplementation.clickButton' and 'example.StepImplementation.clickButton'
+23-05-2025 00:48:49.050 [java] [DEBUG] Found I click on the {} button in current project scope.
+23-05-2025 00:48:49.050 [java] [DEBUG] Comparing 'example.StepImplementation.iAmOnTheLoginPage' and 'example.StepImplementation.iAmOnTheLoginPage'
+23-05-2025 00:48:49.050 [java] [DEBUG] Found I am on the login page in current project scope.
+23-05-2025 00:48:49.050 [java] [DEBUG] Comparing 'example.StepImplementation.enterIncorrectPassword' and 'example.StepImplementation.enterIncorrectPassword'
+23-05-2025 00:48:49.050 [java] [DEBUG] Found I enter my valid username but an incorrect password in current project scope.
+23-05-2025 00:48:49.050 [java] [DEBUG] Comparing 'example.StepImplementation.enterEmptyFields' and 'example.StepImplementation.enterEmptyFields'
+23-05-2025 00:48:49.050 [java] [DEBUG] Found I leave the username and password fields empty in current project scope.
+23-05-2025 00:48:49.050 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeWelcomeMessage' and 'example.StepImplementation.shouldSeeWelcomeMessage'
+23-05-2025 00:48:49.050 [java] [DEBUG] Found I should see a welcome message in current project scope.
+23-05-2025 00:48:49.050 [java] [DEBUG] Comparing 'example.StepImplementation.enterValidCredentials' and 'example.StepImplementation.enterValidCredentials'
+23-05-2025 00:48:49.050 [java] [DEBUG] Found I enter my valid username and password in current project scope.
+23-05-2025 00:48:49.050 [java] [DEBUG] Comparing 'example.StepImplementation.iAmRegisteredUser' and 'example.StepImplementation.iAmRegisteredUser'
+23-05-2025 00:48:49.050 [java] [DEBUG] Found I am a registered user in current project scope.
+23-05-2025 00:48:49.051 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeErrorMessage' and 'example.StepImplementation.shouldSeeErrorMessage'
+23-05-2025 00:48:49.051 [java] [DEBUG] Found I should see an error message saying {} in current project scope.
+23-05-2025 00:48:49.051 [java] [DEBUG] Scanning packages for hooks
+23-05-2025 00:48:49.054 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+23-05-2025 00:48:49.054 [java] [DEBUG] 	I enter my valid username and password : public void enterValidCredentials()
+23-05-2025 00:48:49.054 [java] [DEBUG] 	I click on the {} button : public void clickButton(String button)
+23-05-2025 00:48:49.054 [java] [DEBUG] 	I am a registered user : public void iAmRegisteredUser()
+23-05-2025 00:48:49.055 [java] [DEBUG] 	I am on the login page : public void iAmOnTheLoginPage()
+23-05-2025 00:48:49.055 [java] [DEBUG] 	I enter my valid username but an incorrect password : public void enterIncorrectPassword()
+23-05-2025 00:48:49.055 [java] [DEBUG] 	I should see a welcome message : public void shouldSeeWelcomeMessage()
+23-05-2025 00:48:49.055 [java] [DEBUG] 	I should remain on the login page : public void shouldRemainOnLoginPage()
+23-05-2025 00:48:49.055 [java] [DEBUG] 	I should be redirected to the dashboard : public void shouldRedirectToDashboard()
+23-05-2025 00:48:49.055 [java] [DEBUG] 	I have navigated to the login page : public void iHaveNavigatedToLoginPage()
+23-05-2025 00:48:49.055 [java] [DEBUG] 	I should see an error message saying {} : public void shouldSeeErrorMessage(String expectedMessage)
+23-05-2025 00:48:49.055 [java] [DEBUG] 	I leave the username and password fields empty : public void enterEmptyFields()
+23-05-2025 00:48:49.455 [Gauge] [DEBUG] Validation completed.
+23-05-2025 00:48:49.455 [Gauge] [DEBUG] Run started
+23-05-2025 00:48:49.456 [Gauge] [DEBUG] Starting Html Report plugin
+23-05-2025 00:48:49.469 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+23-05-2025 00:48:49.469 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 23015
+23-05-2025 00:48:49.469 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 23015
+23-05-2025 00:48:49.469 [Gauge] [DEBUG] Initialising suite data store.
+23-05-2025 00:48:49.496 [Gauge] [INFO] # User Login
+23-05-2025 00:48:49.503 [Gauge] [INFO] ## Scenario 1: Successful Login
+23-05-2025 00:48:49.510 [Gauge] [DEBUG] * I am a registered user
+23-05-2025 00:48:49.521 [java] [DEBUG] Executing 'I am a registered user' using 'class example.StepImplementation.iAmRegisteredUser
+23-05-2025 00:48:49.534 [Gauge] [DEBUG] * I have navigated to the login page
+23-05-2025 00:48:49.540 [java] [DEBUG] Executing 'I have navigated to the login page' using 'class example.StepImplementation.iHaveNavigatedToLoginPage
+23-05-2025 00:48:49.547 [Gauge] [DEBUG] * I enter my valid username and password
+23-05-2025 00:48:49.552 [java] [DEBUG] Executing 'I enter my valid username and password' using 'class example.StepImplementation.enterValidCredentials
+23-05-2025 00:48:49.557 [Gauge] [DEBUG] * I click on the "Login" button
+23-05-2025 00:48:49.566 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+23-05-2025 00:48:49.570 [Gauge] [DEBUG] * I should be redirected to the dashboard
+23-05-2025 00:48:49.576 [java] [DEBUG] Executing 'I should be redirected to the dashboard' using 'class example.StepImplementation.shouldRedirectToDashboard
+23-05-2025 00:48:49.616 [Gauge] [DEBUG] * I should see a welcome message
+
+23-05-2025 00:48:49.620 [java] [DEBUG] Executing 'I should see a welcome message' using 'class example.StepImplementation.shouldSeeWelcomeMessage
+23-05-2025 00:48:49.627 [Gauge] [INFO] ## Scenario 2: Unsuccessful Login with Incorrect Password
+23-05-2025 00:48:49.629 [Gauge] [DEBUG] * I am a registered user
+23-05-2025 00:48:49.632 [java] [DEBUG] Executing 'I am a registered user' using 'class example.StepImplementation.iAmRegisteredUser
+23-05-2025 00:48:49.635 [Gauge] [DEBUG] * I have navigated to the login page
+23-05-2025 00:48:49.640 [java] [DEBUG] Executing 'I have navigated to the login page' using 'class example.StepImplementation.iHaveNavigatedToLoginPage
+23-05-2025 00:48:49.645 [Gauge] [DEBUG] * I enter my valid username but an incorrect password
+23-05-2025 00:48:49.648 [java] [DEBUG] Executing 'I enter my valid username but an incorrect password' using 'class example.StepImplementation.enterIncorrectPassword
+23-05-2025 00:48:49.651 [Gauge] [DEBUG] * I click on the "Login" button
+23-05-2025 00:48:49.653 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+23-05-2025 00:48:49.657 [Gauge] [DEBUG] * I should see an error message saying "Invalid credentials"
+23-05-2025 00:48:49.665 [java] [DEBUG] Executing 'I should see an error message saying {}' using 'class example.StepImplementation.shouldSeeErrorMessage
+23-05-2025 00:48:49.670 [Gauge] [DEBUG] * I should remain on the login page
+
+23-05-2025 00:48:49.674 [java] [DEBUG] Executing 'I should remain on the login page' using 'class example.StepImplementation.shouldRemainOnLoginPage
+23-05-2025 00:48:49.681 [Gauge] [INFO] ## Scenario 3: Login with Empty Fields
+23-05-2025 00:48:49.688 [Gauge] [DEBUG] * I am on the login page
+23-05-2025 00:48:49.692 [java] [DEBUG] Executing 'I am on the login page' using 'class example.StepImplementation.iAmOnTheLoginPage
+23-05-2025 00:48:49.694 [Gauge] [DEBUG] * I leave the username and password fields empty
+23-05-2025 00:48:49.702 [java] [DEBUG] Executing 'I leave the username and password fields empty' using 'class example.StepImplementation.enterEmptyFields
+23-05-2025 00:48:49.706 [Gauge] [DEBUG] * I click on the "Login" button
+23-05-2025 00:48:49.712 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+23-05-2025 00:48:49.715 [Gauge] [DEBUG] * I should see an error message saying "Username and Password are required"
+23-05-2025 00:48:49.719 [java] [DEBUG] Executing 'I should see an error message saying {}' using 'class example.StepImplementation.shouldSeeErrorMessage
+23-05-2025 00:48:49.740 [html-report] [DEBUG] Transformed SuiteResult to report structure
+23-05-2025 00:48:49.757 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+23-05-2025 00:48:49.757 [html-report] [INFO] Successfully generated html-report to => D:\DST2024\Semester 2\Agile\bddgauge\reports\html-report\index.html
+23-05-2025 00:48:49.758 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\kaops\AppData\Roaming\gauge\plugins\html-report\4.3.2\themes\default
+23-05-2025 00:48:49.760 [java] [DEBUG] Killing Java runner...
+23-05-2025 00:48:49.762 [java] [DEBUG] Stopping execution pool...
+23-05-2025 00:48:49.762 [java] [DEBUG] Shutting down grpc server...
+23-05-2025 00:48:49.768 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+23-05-2025 00:48:49.768 [Gauge] [INFO] Scenarios:	3 executed	3 passed	0 failed	0 skipped
+23-05-2025 00:48:49.768 [Gauge] [INFO] 
+Total time taken: 284ms
+23-05-2025 00:48:49.769 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+23-05-2025 00:50:57.730 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\DST2024\Semester 2\Agile\bddgauge\.gauge\screenshots
+23-05-2025 00:50:57.731 [Gauge] [DEBUG] Plugin java is already installed.
+23-05-2025 00:50:57.731 [Gauge] [DEBUG] Plugin html-report is already installed.
+23-05-2025 00:50:57.732 [Gauge] [DEBUG] Parsing started.
+23-05-2025 00:50:57.732 [Gauge] [DEBUG] Started concepts parsing.
+23-05-2025 00:50:57.733 [Gauge] [DEBUG] 0 concepts parsing completed.
+23-05-2025 00:50:57.733 [Gauge] [DEBUG] Started specifications parsing.
+23-05-2025 00:50:57.733 [Gauge] [DEBUG] 1 specifications parsing completed.
+23-05-2025 00:50:57.733 [Gauge] [DEBUG] Parsing completed.
+23-05-2025 00:50:57.746 [java] [DEBUG] ***** Printing Properties/Env Values *****
+23-05-2025 00:50:57.747 [java] [DEBUG] PATH: C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Gauge\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\kaops\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\k6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Ruby33-x64\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\;C:\Program Files\MySQL\M;C:\Program Files\PostgreSQL\16\bin;C:\Users\kaops\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kaops\AppData\Local\Programs\Python\Python312\Scripts\;C:\Gradle\gradle-8.14\bin;;c:\Users\kaops\.vscode\extensions\ms-python.debugpy-2025.8.0-win32-x64\bundled\scripts\noConfigScripts;C:\Users\kaops\AppData\Roaming\gauge\plugins\screenshot\0.3.1
+23-05-2025 00:50:57.747 [java] [DEBUG] JAVA_HOME: C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot
+23-05-2025 00:50:57.747 [java] [DEBUG] gauge_project_root: D:\DST2024\Semester 2\Agile\bddgauge
+23-05-2025 00:50:57.747 [java] [DEBUG] gauge_parallel_streams_count: 12
+23-05-2025 00:50:57.747 [java] [DEBUG] gauge_reports_dir: reports
+23-05-2025 00:50:57.747 [java] [DEBUG] overwrite_reports: true
+23-05-2025 00:50:57.747 [java] [DEBUG] logs_directory: logs
+23-05-2025 00:50:57.747 [java] [DEBUG] enable_multithreading: false
+23-05-2025 00:50:57.747 [java] [DEBUG] gauge_specs_dir: specs
+23-05-2025 00:50:57.747 [java] [DEBUG] csv_delimiter: ,
+23-05-2025 00:50:57.747 [java] [DEBUG] gauge_java_home: 
+23-05-2025 00:50:57.747 [java] [DEBUG] gauge_custom_build_path: 
+23-05-2025 00:50:57.747 [java] [DEBUG] gauge_additional_libs: libs/*
+23-05-2025 00:50:57.747 [java] [DEBUG] gauge_jvm_args: 
+23-05-2025 00:50:57.747 [java] [DEBUG] gauge_custom_compile_dir: 
+23-05-2025 00:50:57.747 [java] [DEBUG] gauge_clear_state_level: scenario
+23-05-2025 00:50:57.747 [java] [DEBUG] ***** END *****
+23-05-2025 00:50:58.443 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\kaops\AppData\Local\Temp\gauge_temp435911193\9d4ff4a3d6ec396d55268edef4785d4d]
+23-05-2025 00:50:58.443 [java] [DEBUG] stdout/stderr is logged to logs\32920-javac.exe.out
+23-05-2025 00:50:58.694 [Gauge] [DEBUG] Checking updates...
+23-05-2025 00:50:58.695 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+23-05-2025 00:50:58.849 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+23-05-2025 00:50:58.901 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+23-05-2025 00:50:59.372 [java] [DEBUG] classpath set to C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\*;C:\Users\kaops\AppData\Roaming\gauge\plugins\java\0.12.0\libs\*;D:\DST2024\Semester 2\Agile\bddgauge\libs\*;gauge_bin
+23-05-2025 00:50:59.390 [java] [DEBUG] found java executable in C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe
+23-05-2025 00:50:59.390 [java] [DEBUG] running - C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+23-05-2025 00:50:59.390 [java] [DEBUG] stdout/stderr is logged to logs\32920-java.exe.out
+23-05-2025 00:50:59.499 [java] [DEBUG] multithreading is set to false
+23-05-2025 00:50:59.778 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+23-05-2025 00:50:59.804 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+23-05-2025 00:50:59.804 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+23-05-2025 00:50:59.804 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+23-05-2025 00:51:00.372 [java] [DEBUG] gauge-java took 867milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+23-05-2025 00:51:00.373 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 867
+23-05-2025 00:51:00.373 [java] [DEBUG] starting gRPC server...
+23-05-2025 00:51:00.486 [java] [DEBUG] started gRPC server on port 23052
+23-05-2025 00:51:00.488 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 23052
+23-05-2025 00:51:00.488 [Gauge] [DEBUG] Successfully made the connection with runner with port: 23052
+23-05-2025 00:51:00.488 [Gauge] [DEBUG] Validation started.
+23-05-2025 00:51:01.083 [java] [DEBUG] Scanning packages for steps
+23-05-2025 00:51:01.091 [java] [DEBUG] Comparing 'example.StepImplementation.iHaveNavigatedToLoginPage' and 'example.StepImplementation.iHaveNavigatedToLoginPage'
+23-05-2025 00:51:01.092 [java] [DEBUG] Found I have navigated to the login in current project scope.
+23-05-2025 00:51:01.093 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRemainOnLoginPage' and 'example.StepImplementation.shouldRemainOnLoginPage'
+23-05-2025 00:51:01.093 [java] [DEBUG] Found I should remain on the login page in current project scope.
+23-05-2025 00:51:01.093 [java] [DEBUG] Comparing 'example.StepImplementation.shouldRedirectToDashboard' and 'example.StepImplementation.shouldRedirectToDashboard'
+23-05-2025 00:51:01.093 [java] [DEBUG] Found I should be redirected to the dashboard in current project scope.
+23-05-2025 00:51:01.093 [java] [DEBUG] Comparing 'example.StepImplementation.clickButton' and 'example.StepImplementation.clickButton'
+23-05-2025 00:51:01.093 [java] [DEBUG] Found I click on the {} button in current project scope.
+23-05-2025 00:51:01.093 [java] [DEBUG] Comparing 'example.StepImplementation.iAmOnTheLoginPage' and 'example.StepImplementation.iAmOnTheLoginPage'
+23-05-2025 00:51:01.093 [java] [DEBUG] Found I am on the login page in current project scope.
+23-05-2025 00:51:01.093 [java] [DEBUG] Comparing 'example.StepImplementation.enterIncorrectPassword' and 'example.StepImplementation.enterIncorrectPassword'
+23-05-2025 00:51:01.093 [java] [DEBUG] Found I enter my valid username but an incorrect password in current project scope.
+23-05-2025 00:51:01.094 [java] [DEBUG] Comparing 'example.StepImplementation.enterEmptyFields' and 'example.StepImplementation.enterEmptyFields'
+23-05-2025 00:51:01.094 [java] [DEBUG] Found I leave the username and password fields empty in current project scope.
+23-05-2025 00:51:01.094 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeWelcomeMessage' and 'example.StepImplementation.shouldSeeWelcomeMessage'
+23-05-2025 00:51:01.094 [java] [DEBUG] Found I should see a welcome message in current project scope.
+23-05-2025 00:51:01.094 [java] [DEBUG] Comparing 'example.StepImplementation.enterValidCredentials' and 'example.StepImplementation.enterValidCredentials'
+23-05-2025 00:51:01.094 [java] [DEBUG] Found I enter my valid username and password in current project scope.
+23-05-2025 00:51:01.094 [java] [DEBUG] Comparing 'example.StepImplementation.iAmRegisteredUser' and 'example.StepImplementation.iAmRegisteredUser'
+23-05-2025 00:51:01.094 [java] [DEBUG] Found I am a registered user in current project scope.
+23-05-2025 00:51:01.094 [java] [DEBUG] Comparing 'example.StepImplementation.shouldSeeErrorMessage' and 'example.StepImplementation.shouldSeeErrorMessage'
+23-05-2025 00:51:01.094 [java] [DEBUG] Found I should see an error message saying {} in current project scope.
+23-05-2025 00:51:01.094 [java] [DEBUG] Scanning packages for hooks
+23-05-2025 00:51:01.098 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+23-05-2025 00:51:01.098 [java] [DEBUG] 	I enter my valid username and password : public void enterValidCredentials()
+23-05-2025 00:51:01.098 [java] [DEBUG] 	I click on the {} button : public void clickButton(String button)
+23-05-2025 00:51:01.098 [java] [DEBUG] 	I have navigated to the login : public void iHaveNavigatedToLoginPage()
+23-05-2025 00:51:01.098 [java] [DEBUG] 	I am a registered user : public void iAmRegisteredUser()
+23-05-2025 00:51:01.098 [java] [DEBUG] 	I am on the login page : public void iAmOnTheLoginPage()
+23-05-2025 00:51:01.098 [java] [DEBUG] 	I enter my valid username but an incorrect password : public void enterIncorrectPassword()
+23-05-2025 00:51:01.098 [java] [DEBUG] 	I should see a welcome message : public void shouldSeeWelcomeMessage()
+23-05-2025 00:51:01.098 [java] [DEBUG] 	I should remain on the login page : public void shouldRemainOnLoginPage()
+23-05-2025 00:51:01.098 [java] [DEBUG] 	I should be redirected to the dashboard : public void shouldRedirectToDashboard()
+23-05-2025 00:51:01.098 [java] [DEBUG] 	I should see an error message saying {} : public void shouldSeeErrorMessage(String expectedMessage)
+23-05-2025 00:51:01.098 [java] [DEBUG] 	I leave the username and password fields empty : public void enterEmptyFields()
+23-05-2025 00:51:01.497 [Gauge] [ERROR] [ValidationError] D:\DST2024\Semester 2\Agile\bddgauge\specs\login.spec:5 Step implementation not found => 'I have navigated to the login page'
+23-05-2025 00:51:01.497 [Gauge] [ERROR] [ValidationError] D:\DST2024\Semester 2\Agile\bddgauge\specs\login.spec:13 Step implementation not found => 'I have navigated to the login page'
+23-05-2025 00:51:01.497 [Gauge] [INFO] Add the following missing implementations to fix `Step implementation not found` errors.
+23-05-2025 00:51:01.497 [Gauge] [INFO] 
+	@Step("I have navigated to the login page")
+	public void iHaveNavigatedToTheLoginPage(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+23-05-2025 00:51:01.497 [Gauge] [DEBUG] Run started
+23-05-2025 00:51:01.498 [Gauge] [DEBUG] Starting Html Report plugin
+23-05-2025 00:51:01.512 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+23-05-2025 00:51:01.512 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 23056
+23-05-2025 00:51:01.512 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 23056
+23-05-2025 00:51:01.512 [Gauge] [DEBUG] Initialising suite data store.
+23-05-2025 00:51:01.552 [Gauge] [INFO] # User Login
+23-05-2025 00:51:01.564 [Gauge] [INFO] ## Scenario 3: Login with Empty Fields
+23-05-2025 00:51:01.576 [Gauge] [DEBUG] * I am on the login page
+23-05-2025 00:51:01.590 [java] [DEBUG] Executing 'I am on the login page' using 'class example.StepImplementation.iAmOnTheLoginPage
+23-05-2025 00:51:01.606 [Gauge] [DEBUG] * I leave the username and password fields empty
+23-05-2025 00:51:01.612 [java] [DEBUG] Executing 'I leave the username and password fields empty' using 'class example.StepImplementation.enterEmptyFields
+23-05-2025 00:51:01.616 [Gauge] [DEBUG] * I click on the "Login" button
+23-05-2025 00:51:01.627 [java] [DEBUG] Executing 'I click on the {} button' using 'class example.StepImplementation.clickButton
+23-05-2025 00:51:01.631 [Gauge] [DEBUG] * I should see an error message saying "Username and Password are required"
+23-05-2025 00:51:01.637 [java] [DEBUG] Executing 'I should see an error message saying {}' using 'class example.StepImplementation.shouldSeeErrorMessage
+23-05-2025 00:51:01.691 [html-report] [DEBUG] Transformed SuiteResult to report structure
+23-05-2025 00:51:01.706 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+23-05-2025 00:51:01.706 [html-report] [INFO] Successfully generated html-report to => D:\DST2024\Semester 2\Agile\bddgauge\reports\html-report\index.html
+23-05-2025 00:51:01.706 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\kaops\AppData\Roaming\gauge\plugins\html-report\4.3.2\themes\default
+23-05-2025 00:51:01.710 [java] [DEBUG] Killing Java runner...
+23-05-2025 00:51:01.711 [java] [DEBUG] Stopping execution pool...
+23-05-2025 00:51:01.712 [java] [DEBUG] Shutting down grpc server...
+23-05-2025 00:51:01.717 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+23-05-2025 00:51:01.717 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	2 skipped
+23-05-2025 00:51:01.717 [Gauge] [INFO] 
+Total time taken: 193ms
+23-05-2025 00:51:01.718 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
